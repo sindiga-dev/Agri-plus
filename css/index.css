@@ -49,5 +49,18 @@
     padding-top: 7%;
     font-family: 'Poppins';
 }
-
-
+.mostp{
+    display: flex;
+    justify-content: space-around;
+}
+.newitm{
+    display: flex;
+    justify-content: space-around;
+}
+.categories{
+    text-align: center;
+}
+.exist{
+    display: flex;
+    justify-content: space-evenly;
+}
