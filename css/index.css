@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 .navbar{
     background-color: black;
     position: absolute;
@@ -29,7 +33,7 @@
 .agrilogo{
     color: white;
     font-family: 'Inter';
-    font-display: ;
+    
 }
 .button1{
     border: none; 
@@ -41,3 +45,9 @@
 	padding: 15px;
 	border-radius: 7px;
 }
+.tbody{
+    padding-top: 7%;
+    font-family: 'Poppins';
+}
+
+
