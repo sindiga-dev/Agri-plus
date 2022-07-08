@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+.navbar{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+}
+.navb{
+    padding: 15px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nlink>ul{
+    display: flex;
+}
+.nlink> ul> li> a{
+    list-style: none;
+    padding: 15px;
+    font-size: 17px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.agrilogo{
+    color: white;
+    font-family: 'Inter';
+}
+.button1{
+    border: none;
+    background-color: #ED661F;
+    color: white;
+    font-size: 16px;
+	font-weight: 600 !important;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 7px;
+}
