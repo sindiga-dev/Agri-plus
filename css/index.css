@@ -48,6 +48,7 @@
 .tbody{
     padding-top: 7%;
     font-family: 'Poppins';
+    padding-left: 7%;
 }
 .mostp{
     display: flex;
@@ -68,3 +69,28 @@
 .checked {
     color: orange;
   }
+
+.rating{
+    
+    list-style: none;
+    display: flex;
+}
+.lsverified>ul{
+    display: flex;
+}
+.lsverified>ul>li{
+    list-style: none;
+    justify-content: center;
+    padding: 5%;
+    text-align: center;
+
+}
+.lsverified{
+    justify-content: space-between;
+    width: 60%;
+	margin: 70px auto 0;
+	background-color: #FAFAFA;
+	border-radius: 0;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+		rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
