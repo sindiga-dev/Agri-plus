@@ -67,14 +67,9 @@
     padding-top: 7%;
 }
 .checked {
-    color: orange;
+    color: #ED661F;
   }
 
-.rating{
-    
-    list-style: none;
-    display: flex;
-}
 .lsverified>ul{
     display: flex;
 }
@@ -94,3 +89,28 @@
 	box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
 		rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
+.rating>ul{
+    display: flex;
+    list-style: none;
+    margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.ratingf{
+    height: 20%;
+    width: 20%;
+	max-width: 30%;
+	background-color: #fff;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+
+}
+.ratingf:hover{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+		rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+	cursor: pointer;
+}
+    
+    
