@@ -3,6 +3,13 @@
 *{
     margin: 0;
     padding: 0;
+
+}
+body{
+    font-family: 'Poppins';
+    margin-left: 1%;
+    
+    
 }
 .navbar{
     background-color: black;
@@ -49,6 +56,13 @@
 .tbody>.jbl{
     display: flex;
     list-style: none;
+    background-image: url(/images/image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+    
 }
 
   
@@ -228,6 +242,9 @@
     margin-top:-80px;;
 
 }
+.btm-log{
+    margin-left: 3%;
+}
 .company h2{
     font-size: 22px;
 }
@@ -260,3 +277,15 @@
   flex-direction: row;
 }
 
+.ecustomers{
+    padding-top: 7%;
+    margin-left: 3%;
+}
+.pp1{
+    margin-left: 4%;
+    padding-top: 7%;
+}
+.nn1{
+    margin-left: 4%;
+    padding-top: 7%;
+}
