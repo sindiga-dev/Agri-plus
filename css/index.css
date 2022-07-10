@@ -261,6 +261,7 @@ body{
     background-color: black;
     color: white;
     text-align: center;
+    align-self: ;
 }
 .jbtm-logo{
   padding-left: 100px;
