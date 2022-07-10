@@ -45,15 +45,29 @@
 	padding: 15px;
 	border-radius: 7px;
 }
+
+.tbody>.jbl{
+    display: flex;
+    list-style: none;
+}
+
+  
 .tbody{
     padding-top: 7%;
     font-family: 'Poppins';
     padding-left: 7%;
+    width: 100%;
+    
 }
 .mostp{
     display: flex;
     justify-content: space-around;
 }
+
+.image-2{
+    clear: right;
+}
+
 .newitm{
     display: flex;
     justify-content: space-around;
@@ -112,5 +126,137 @@
 		rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 	cursor: pointer;
 }
+.icons>.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+} 
+.icons>.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.fa-twitter {
+    background: #55ACEE;
+    color: g;
+  }
+  .fa-instagram {
+    background: grey;
+    color: black;
+  }
+   
+
+
+.footer{
+    background-color: white;
+    width: 100%;
+    height: 70vh;
+}
+.kint{
+    flex-direction: column;
+    background-color: black;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+}
+.kint h2{
+  color: white;
+    font-size: 30px;
+}
+.kint p{
+  color: white;
+    font-size: 16px;
+}
+.form-input{
+  
+    text-align: center;
+    border: none;
+    height: 40px;
+    width: 350px;
+    border-radius: 3px;
+}
+.btn-submit{
+    height: 40px;
+    background-color: #ED661F;
+    color: white;
+    width: 150px;
+    border: none;
+}
+
+.btm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    color: white;
     
-    
+
+}
+.footer-bottom .brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    color: white;
+}
+
+.brand .icons{
+    margin: 20px 0 20px 0;
+}
+.company{
+    flex-grow: 2;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top:-80px;;
+
+}
+.company h2{
+    font-size: 22px;
+}
+.company ul{
+    margin-top: 10px;
+    list-style: none;
+}
+.company ul li{
+    padding: 5px;
+}
+.copy{
+  padding: 30px 0 30px 0;
+  font-weight: 400;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.jbtm-logo{
+  padding-left: 100px;
+  margin-top:60px;
+}
+.app-store{
+  width: 100px;
+  color: black;
+  padding-top: 0;
+  margin: 0 10px 0 0;
+}
+.logo-images{
+  display: flex;
+  flex-direction: row;
+}
+
